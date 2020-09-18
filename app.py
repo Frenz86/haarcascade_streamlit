@@ -5,6 +5,7 @@ from PIL import Image
 import numpy as np
 import os
 
+st.set_option('deprecation.showfileUploaderEncoding', False)
 
 # Loading pre-trained parameters for the cascade classifier
 try:
